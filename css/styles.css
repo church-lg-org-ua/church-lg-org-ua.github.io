@@ -38,18 +38,16 @@ p {padding:6px 0 7px 0;}
 
 .join-us {
 	position:absolute;
-    bottom:0px;
-    left:0px;
-    right:0px;
+    	bottom:0px;
+    	left:0px;
+	right:0px;
 	height:200px;
-	
-	/*
+
 	-webkit-transition:all 1.0s ease-in-out;
 	-moz-transition:all 1.0s ease-in-out;
 	-o-transition:all 1.0s ease-in-out;
 	transition:all 1.0s ease-in-out;
-	
-	*/
+
 }
 
 .btn {padding-bottom:25px;}
@@ -73,23 +71,26 @@ p {padding:6px 0 7px 0;}
 
 .footer {
 	position:fixed;
-	/* bottom:-170px; */ 
 	top:auto;
 	left:0px;
 	right:0px;
+	
 	height:133px;
+	height:150px;
 	background:rgba(84,31,28,0.9);
 	padding-top:37px;
 	color:#ead3b3;
 	text-align:center;
 	font-size:11px;}
 	
-/*
+@media only screen {	
+ .footer {	
+	bottom:-170px;
 	-webkit-transition:all 1.0s ease-in-out;
 	-moz-transition:all 1.0s ease-in-out;
 	-o-transition:all 1.0s ease-in-out;
 	transition:all 1.0s ease-in-out;
-*/	
+ }
 }
 .footer .conteiner {
 	max-width:560px;
@@ -102,7 +103,7 @@ p {padding:6px 0 7px 0;}
 .social {padding-bottom:7px;}
 .social .link {margin:0 21px; text-decoration:none; display:inline-block; opacity:0.5; position:relative;}
 .social .link:hover {text-decoration:none; opacity:1;}
-.social .link:hover .tooltip {display:block; bottom:67px;}
+.social .link:hover .tooltip {display:block; bottom:67px;  bottom:75px;}
 
 .tooltip {
     position:absolute;
@@ -110,6 +111,7 @@ p {padding:6px 0 7px 0;}
     font-size:12px;
     white-space:nowrap;
     bottom:75px;
+    
     left:0px;
     padding:0px;
     margin-left:-72px;
