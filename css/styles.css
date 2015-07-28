@@ -116,12 +116,14 @@ p {padding:6px 0 7px 0;}
     width:200px;
     z-index:88;
     /* display:none; */
+    
+    font-size:9px;
 }
 
 .footer .nowrap {white-space:nowrap;}
 
 @media screen and (max-width: 640px) {
-    #logo {padding-top:30px; width:142px;}
+    #logo {padding-top:30px; width:142px; border: 4px red dashed;}
     #logo img {border-width:26px; width:90px; height:90px;}
     .btn span {font-size:18px; width:260px;}
     .social {padding-bottom:0px;}
