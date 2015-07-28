@@ -1,5 +1,5 @@
 
-church-lg.org.ua
+http://church-lg.org.ua
 
 
 Церква Бога Живого
