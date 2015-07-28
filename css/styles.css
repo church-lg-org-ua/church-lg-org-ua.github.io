@@ -89,6 +89,9 @@ p {padding:6px 0 7px 0;}
 	transition:all 1.0s ease-in-out;
  }
 
+.join-us:hover .footer{
+	bottom:0;}
+
 
 .footer .conteiner {
 	max-width:560px;
