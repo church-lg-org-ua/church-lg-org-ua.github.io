@@ -76,23 +76,19 @@ p {padding:6px 0 7px 0;}
 	right:0px;
 	
 	height:133px;
-	height:150px;
 	background:rgba(84,31,28,0.9);
 	padding-top:37px;
 	color:#ead3b3;
 	text-align:center;
-	font-size:11px; }
-/*	
-@media only screen {	
- .footer {	
+	font-size:11px;
+	
 	bottom:-170px;
 	-webkit-transition:all 1.0s ease-in-out;
 	-moz-transition:all 1.0s ease-in-out;
 	-o-transition:all 1.0s ease-in-out;
 	transition:all 1.0s ease-in-out;
  }
-}
-*/
+
 
 .footer .conteiner {
 	max-width:560px;
@@ -120,9 +116,8 @@ p {padding:6px 0 7px 0;}
     text-align:center;
     width:200px;
     z-index:88;
-    /* display:none; */
-    
-    font-size:9px;
+    display:none;
+
 }
 
 .footer .nowrap {white-space:nowrap;}
