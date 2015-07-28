@@ -103,7 +103,7 @@ p {padding:6px 0 7px 0;}
 .social {padding-bottom:7px;}
 .social .link {margin:0 21px; text-decoration:none; display:inline-block; opacity:0.5; position:relative;}
 .social .link:hover {text-decoration:none; opacity:1;}
-.social .link:hover .tooltip {display:block; bottom:67px;  bottom:75px;}
+.social .link:hover .tooltip {display:block; max-width:120px; bottom:67px;  bottom:75px;}
 
 .tooltip {
     position:absolute;
