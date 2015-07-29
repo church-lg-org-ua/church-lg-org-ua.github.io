@@ -153,17 +153,18 @@ p {padding:6px 0 7px 0;}
 
 
 @media screen and (max-width: 640px) {
-	.conteiner { text-align: right;}
     #logo {
-    	padding:30px 30px 0 0; 
+    	padding:30px 0 0 30px; 
     	width:142px;
     	margin: 0;}
 
     #logo img {border-width:26px; width:90px; height:90px;}
+    .btn  { text-align: right;}
     .btn span {
     	font-size:18px; 
+    	font-size:12px; 
     	width:260px;
-    	margin: 0 0 0 20px ;
+    	margin: 0 20px 0 auto;
     }
     .social {padding-bottom:0px;}
     .social .link {margin:0 10px; font-size: 9pt;}
