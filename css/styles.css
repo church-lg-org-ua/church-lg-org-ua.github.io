@@ -140,7 +140,7 @@ p {padding:6px 0 7px 0;}
 
 	.tooltip {
 		max-width: 100px;
-		margin-left: -50px;
+		margin-left: -10px;
 	    display: visible;
 	    white-space: normal;
 	}
@@ -167,7 +167,7 @@ p {padding:6px 0 7px 0;}
     	font-size:12px;
     	width:180px;
 
-    	margin: 0 20px 0 0;
+    	margin: 0 20px 0 auto;
     }
     .social {padding-bottom:0px;}
     .social .link {margin:0 10px; font-size: 9pt;}
@@ -176,6 +176,9 @@ p {padding:6px 0 7px 0;}
     .social .link img {width:36px; height:36px;}
     
     .social .link:hover .tooltip {opacity:1; bottom:50px;}
-    .tooltip {font-size:10px; display: block; /* margin-left:-79px; */}
+    .tooltip {
+    	font-size:10px; 
+    	display: block; /* margin-left:-79px; */
+    	bottom: 50px;}
 
 }
