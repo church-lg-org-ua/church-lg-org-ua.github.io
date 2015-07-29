@@ -38,16 +38,18 @@ p {padding:6px 0 7px 0;}
 
 .join-us {
 	position:absolute;
-    	bottom:0px;
-    	left:0px;
-	right:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
 	height:200px;
-
+	
+	/*
 	-webkit-transition:all 1.0s ease-in-out;
 	-moz-transition:all 1.0s ease-in-out;
 	-o-transition:all 1.0s ease-in-out;
 	transition:all 1.0s ease-in-out;
-
+	
+	*/
 }
 
 .btn {padding-bottom:25px;}
@@ -71,28 +73,23 @@ p {padding:6px 0 7px 0;}
 
 .footer {
 	position:fixed;
+	/* bottom:-170px; */ 
 	top:auto;
 	left:0px;
 	right:0px;
-	
 	height:133px;
 	background:rgba(84,31,28,0.9);
 	padding-top:37px;
 	color:#ead3b3;
 	text-align:center;
 	font-size:11px;
-	
-	bottom:-170px;
+/*
 	-webkit-transition:all 1.0s ease-in-out;
 	-moz-transition:all 1.0s ease-in-out;
 	-o-transition:all 1.0s ease-in-out;
 	transition:all 1.0s ease-in-out;
- }
-
-.join-us:hover .footer{
-	bottom:0;}
-
-
+*/	
+}
 .footer .conteiner {
 	max-width:560px;
 	margin:0 auto;
@@ -104,7 +101,7 @@ p {padding:6px 0 7px 0;}
 .social {padding-bottom:7px;}
 .social .link {margin:0 21px; text-decoration:none; display:inline-block; opacity:0.5; position:relative;}
 .social .link:hover {text-decoration:none; opacity:1;}
-.social .link:hover .tooltip {display:block; max-width:120px; bottom:67px;  bottom:75px;}
+.social .link:hover .tooltip {display:block; bottom:67px;}
 
 .tooltip {
     position:absolute;
@@ -112,21 +109,19 @@ p {padding:6px 0 7px 0;}
     font-size:12px;
     white-space:nowrap;
     bottom:75px;
-    
     left:0px;
     padding:0px;
     margin-left:-72px;
     text-align:center;
     width:200px;
     z-index:88;
-    display:none;
-
+    /* display:none; */
 }
 
 .footer .nowrap {white-space:nowrap;}
 
 @media screen and (max-width: 640px) {
-    #logo {padding-top:30px; width:142px; border: 4px red dashed;}
+    #logo {padding-top:30px; width:142px;}
     #logo img {border-width:26px; width:90px; height:90px;}
     .btn span {font-size:18px; width:260px;}
     .social {padding-bottom:0px;}
