@@ -153,12 +153,12 @@ p {padding:6px 0 7px 0;}
     #logo img {border-width:26px; width:90px; height:90px;}
     .btn span {font-size:18px; width:260px;}
     .social {padding-bottom:0px;}
-    .social .link {margin:0 5px;}
+    .social .link {margin:0 14px;}
 	.social .link:first-child {margin-left:none;}
 	.social .link:last-child {margin-right:none;}
-    .social .link img {width:42px; height:42px;}
+    .social .link img {width:36px; height:36px;}
     
     .social .link:hover .tooltip {opacity:1; bottom:53px;}
-    .tooltip {font-size:10px; margin-left:-79px;}
+    .tooltip {font-size:10px; /* margin-left:-79px; */}
 
 }
