@@ -176,9 +176,11 @@ p {padding:6px 0 7px 0;}
     .social .link img {width:36px; height:36px;}
     
     .social .link:hover .tooltip {opacity:1; bottom:50px;}
+	.social .link .tooltip {
+    	display: block;}
+
     .tooltip {
-    	font-size:10px; 
-    	display: block; /* margin-left:-79px; */
-    	bottom: 50px;}
+    	font-size:10px;  /* margin-left:-79px; */
+    	bottom: 50px!important;}
 
 }
