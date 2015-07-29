@@ -118,9 +118,7 @@ p {padding:6px 0 7px 0;}
     bottom:75px;
     left:0px;
     padding:0px;
-    /*
     margin-left:-72px;
-    */ 
     text-align:center;
     width:200px;
     z-index:88;
@@ -134,11 +132,15 @@ p {padding:6px 0 7px 0;}
 
 @media screen and (max-width: 640px) {
 
+
+	.join-us .btn { z-index: -1}
+
 	.join-us {height:240px;}
 	.join-us .footer {bottom:0px;}
 
 	.tooltip {
 		max-width: 100px;
+		margin-left: -50px;
 	    display: visible;
 	    white-space: normal;
 	}
@@ -151,16 +153,25 @@ p {padding:6px 0 7px 0;}
 
 
 @media screen and (max-width: 640px) {
-    #logo {padding-top:30px; width:142px;}
+    #logo {
+    	padding:30px 0 0 30px; 
+    	width:142px;
+    	margin: 0;}
+
     #logo img {border-width:26px; width:90px; height:90px;}
-    .btn span {font-size:18px; width:260px;}
+    .btn  { text-align: right;}
+    .btn span {
+    	font-size:18px; 
+    	width:260px;
+    	margin: 0 20px 0 auto;
+    }
     .social {padding-bottom:0px;}
     .social .link {margin:0 10px; font-size: 9pt;}
 	.social .link:first-child {margin-left:none;}
 	.social .link:last-child {margin-right:none;}
     .social .link img {width:36px; height:36px;}
     
-    .social .link:hover .tooltip {opacity:1; bottom:53px;}
+    .social .link:hover .tooltip {opacity:1; bottom:50px;}
     .tooltip {font-size:10px; /* margin-left:-79px; */}
 
 }
