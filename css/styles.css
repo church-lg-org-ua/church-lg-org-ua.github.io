@@ -129,10 +129,8 @@ p {padding:6px 0 7px 0;}
 
 
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2){
+@media (only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)  {
 	.join-us {height:240px;}
 	.join-us .footer {bottom:0px;}
     #logo {padding:30px 0 0 30px; width:142px;margin: 0;}
@@ -141,10 +139,7 @@ p {padding:6px 0 7px 0;}
 	.footer .nowrap {white-space: normal;}  
   }
 /* ----------- iPad 1 and 2 Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1)  {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)  {
 	.join-us {height:240px;}
 	.join-us .footer {bottom:0px;}
     #logo {padding:30px 0 0 30px; width:142px;margin: 0;}
