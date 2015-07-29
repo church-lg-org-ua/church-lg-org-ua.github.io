@@ -128,24 +128,10 @@ p {padding:6px 0 7px 0;}
 .footer .nowrap {white-space:nowrap;}
 
 
-/*---------------  Mobile footer  -------------------*/
-
-@media screen and (max-width: 640px) {
+/*---------------  MOBILE -------------------*/
 
 
-	.join-us .btn { z-index: -1}
-
-	.join-us {height:240px;}
-	.join-us .footer {bottom:0px;}
-	.footer .nowrap {white-space: normal;}
-
-}
-
-
-/*---------------  Mobile footer  -------------------*/
-
-
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     #logo {
     	padding:30px 0 0 30px; 
     	width:142px;
@@ -173,5 +159,11 @@ p {padding:6px 0 7px 0;}
     .tooltip {
     	font-size:10px;  /* margin-left:-79px; */
     	bottom: 50px!important;}
+
+	.join-us .btn { z-index: -1}
+
+	.join-us {height:240px;}
+	.join-us .footer {bottom:0px;}
+	.footer .nowrap {white-space: normal;}    	
 
 }
