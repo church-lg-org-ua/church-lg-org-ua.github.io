@@ -137,13 +137,6 @@ p {padding:6px 0 7px 0;}
 
 	.join-us {height:240px;}
 	.join-us .footer {bottom:0px;}
-
-	.tooltip {
-		max-width: 100px;
-		margin-left: -10px;
-	    display: visible;
-	    white-space: normal;
-	}
 	.footer .nowrap {white-space: normal;}
 
 }
@@ -176,8 +169,6 @@ p {padding:6px 0 7px 0;}
     .social .link img {width:36px; height:36px;}
     
     .social .link:hover .tooltip {opacity:1; bottom:50px;}
-	.social .link .tooltip {
-    	display: block;}
 
     .tooltip {
     	font-size:10px;  /* margin-left:-79px; */
