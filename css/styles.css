@@ -129,6 +129,34 @@ p {padding:6px 0 7px 0;}
 
 
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.join-us {height:240px;}
+	.join-us .footer {bottom:0px;}
+
+    #logo {
+    	padding:30px 0 0 30px; 
+    	width:142px;
+    	margin: 0;}
+
+    .btn  { text-align: right;}
+    .btn span {
+    	font-size:18px;  
+    	width:260px;
+
+    	font-size:12px;
+    	width:180px;
+
+    	margin: 0 20px 0 auto;}
+
+	.footer .nowrap {white-space: normal;}  
+
+  	
+  }
+
 /*  Mobile footer  */
 
 /* ----------- iPhone 4 and 4S Portrait and Landscape ----------- */
@@ -213,15 +241,14 @@ p {padding:6px 0 7px 0;}
     	font-size:12px;
     	width:180px;
 
-    	margin: 0 20px 0 auto;
-    }
+    	margin: 0 20px 0 auto;}
 
 	.footer .nowrap {white-space: normal;}   
 }
 
 
 
-/*---------------  Mobile  -------------------*/
+/*---------------  Mobile -------------------*/
 
 
 @media screen and (max-width: 640px) {
