@@ -127,6 +127,27 @@ p {padding:6px 0 7px 0;}
 
 .footer .nowrap {white-space:nowrap;}
 
+
+/*---------------  Mobile footer  -------------------*/
+
+@media screen and (max-width: 640px) {
+
+	.join-us {height:240px;}
+	.join-us .footer {bottom:0px;}
+
+	.tooltip {
+		max-width: 100px;
+	    display: visible;
+	    white-space: normal;
+	}
+	.footer .nowrap {white-space: normal;}
+
+}
+
+
+/*---------------  Mobile footer  -------------------*/
+
+
 @media screen and (max-width: 640px) {
     #logo {padding-top:30px; width:142px;}
     #logo img {border-width:26px; width:90px; height:90px;}
