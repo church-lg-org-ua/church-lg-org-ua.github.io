@@ -5,4 +5,3 @@ relative_permalinks: false
 
 safe: true
 lsi: false
-pygments: true
