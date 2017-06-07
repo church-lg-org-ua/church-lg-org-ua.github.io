@@ -29,9 +29,9 @@ p {padding:6px 0 7px 0;}
 }
 #logo img {
     border:37px solid rgba(255,255,255,0.30);
-    -webkit-border-radius: 107px;
-    -moz-border-radius: 107px;
-    border-radius: 107px;
+    -webkit-border-radius: 07px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
 }
 
 .conteiner {padding:0 10px;}
