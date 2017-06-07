@@ -28,10 +28,10 @@ p {padding:6px 0 7px 0;}
 	width: 215px;
 }
 #logo img {
-    border:37px solid rgba(255,255,255,0.30);
-    -webkit-border-radius: 07px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
+    /** border:37px solid rgba(255,255,255,0.30); **/
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 }
 
 .conteiner {padding:0 10px;}
